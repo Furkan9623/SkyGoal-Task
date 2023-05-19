@@ -1,0 +1,24 @@
+#user-details {
+  box-shadow: 0 0 2px black;
+  width: fit-content;
+  padding: 20px 50px 40px 50px;
+  background-color: rgb(227, 198, 159);
+  background-color: rgb(241, 215, 181);
+  margin: 80px auto;
+  line-height: 2;
+  border-radius: 5px;
+}
+#user-details > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10%;
+}
+#user-details > div {
+  display: flex;
+}
+#user-details > div > div:nth-of-type(1) {
+  color: rgb(8, 72, 38);
+}
+#user-details > div > div >h2{
+    text-transform: uppercase;
+}
